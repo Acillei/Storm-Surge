@@ -1,0 +1,201 @@
+TY  - JOUR
+AB  - Rapid and accurate prediction of peak storm surges across an extensive coastal region is necessary to inform assessments used to design the systems that protect coastal communities’ life and property. Significant advances in high-fidelity, physics-based numerical models have been made in recent years, but use of these models for probabilistic forecasting and probabilistic hazard assessment is computationally intensive. Several surrogate modeling approaches based on existing databases of high-fidelity synthetic storm surge simulations have been recently suggested to reduce computational burden without substantial loss of accuracy. In these previous studies, however, the surrogate modeling approaches relied on a tropical cyclone condition at one moment (usually at or near landfall), which is not always most correlated with the peak storm surge. In this study, a new one-dimensional convolutional neural network model combined with principal component analysis and a k-means clustering (C1PKNet) is presented that can rapidly predict peak storm surge across an extensive coastal region from time-series of tropical cyclone conditions, namely the storm track. The C1PKNet model was trained and cross-validated for the Chesapeake Bay area of the United States using existing database of 1031 high-fidelity storm surge simulations, including both landfalling and bypassing storms. Moreover, the performance of the C1PKNet model was evaluated based on observations from three historical hurricanes (Hurricane Isabel in 2003, Hurricane Irene in 2011, and Hurricane Sandy in 2012). The results indicate that the C1PKNet model is computationally efficient and can predict peak storm surges from realistic tropical cyclone track time-series. We believe that this new surrogate model can enhance coastal resilience by providing rapid storm surge predictions.
+AU  - Lee, Jun Whan
+AU  - Irish, Jennifer L.
+AU  - Bensi, Michelle T.
+AU  - Marcy, Douglas C.
+DO  - 10.1016/j.coastaleng.2021.104024
+PY  - 2021
+TI  - Rapid prediction of peak storm surge from tropical cyclone track time series using machine learning
+T2  - Coastal Engineering
+VL  - 170
+ER  -
+TY  - JOUR
+AB  - To improve coastal adaptation and management, it is critical to better understand and predict the characteristics of sea levels. Here, we explore the capabilities of artificial intelligence, from four deep learning methods to predict the surge component of sea-level variability based on local atmospheric conditions. We use an Artificial Neural Networks, Convolutional Neural Network, Long Short-Term Memory layer (LSTM) and a combination of the latter two (ConvLSTM), to construct ensembles of Neural Network (NN) models at 736 tide stations globally. The NN models show similar patterns of performance, with much higher skill in the mid-latitudes. Using our global model settings, the LSTM generally outperforms the other NN models. Furthermore, for 15 stations we assess the influence of adding complexity more predictor variables. This generally improves model performance but leads to substantial increases in computation time. The improvement in performance remains insufficient to fully capture observed dynamics in some regions. For example, in the tropics only modelling surges is insufficient to capture intra-annual sea level variability. While we focus on minimising mean absolute error for the full time series, the NN models presented here could be adapted for use in forecasting extreme sea levels or emergency response.
+AU  - Tiggeloven, Timothy
+AU  - Couasnon, Anaïs
+AU  - van Straaten, Chiem
+AU  - Muis, Sanne
+AU  - Ward, Philip J.
+DO  - 10.1038/s41598-021-96674-0
+IS  - 1
+PY  - 2021
+TI  - Exploring deep learning capabilities for surge predictions in coastal areas
+T2  - Scientific Reports
+VL  - 11
+ER  -
+TY  - JOUR
+AB  - During every Atlantic hurricane season, storms represent a constant risk to Texan coastal communities and other communities along the Atlantic coast of the United States. A storm surge refers to the abnormal rise of sea water level due to hurricanes and storms; traditionally, hurricane storm surge predictions are generated using complex numerical models that require high amounts of computing power to be run, which grow proportionally with the extent of the area covered by the model. In this work, a machine-learning-based storm surge forecasting model for the Lower Laguna Madre is implemented. The model considers gridded forecasted weather data on winds and atmospheric pressure over the Gulf of Mexico, as well as previous sea levels obtained from a Laguna Madre ocean circulation numerical model. Using architectures such as Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) combined, the resulting model is capable of identifying upcoming hurricanes and predicting storm surges, as well as normal conditions in several locations along the Lower Laguna Madre. Overall, the model is able to predict storm surge peaks with an average difference of 0.04 m when compared with a numerical model and an average RMSE of 0.08 for normal conditions and 0.09 for storm surge conditions.
+AU  - Davila Hernandez, Cesar
+AU  - Ho, Jungseok
+AU  - Kim, Dongchul
+AU  - Oubeidillah, Abdoul
+DO  - 10.3390/a16050232
+IS  - 5
+PY  - 2023
+TI  - Machine-Learning-Based Model for Hurricane Storm Surge Forecasting in the Lower Laguna Madre
+T2  - Algorithms
+VL  - 16
+ER  -
+TY  - JOUR
+AB  - This study proposes a novel, new ensemble model (NEM) designed to simulate the maximum water level increases caused by storm surges in a frequently cyclone-affected coastal water of Hong Kong, China. The model relies on storm and water level data spanning 1978–2022. The NEM amalgamates three machine learning algorithms: Random Forest (RF), Gradient Boosting Decision Tree (GBDT), and XGBoost (XGB), employing a stacking technique for integration. Six parameters, determined using the Random Forest and Recursive Feature Elimination algorithms (RF-RFE), are used as input features for the NEM. These parameters are the nearest wind speed, gale distance, nearest air pressure, minimum distance, maximum pressure drop within 24 hr, and large wind radius. Model assessment results suggest that the NEM exhibits superior performance over RF, GBDT, and XGB, delivering high stability and precision. It reaches a coefficient of determination (R2) up to 0.95 and a mean absolute error (MAE) that fluctuates between 0.08 and 0.20 m for the test data set. An interpretability analysis conducted using the SHapley Additive exPlanations (SHAP) method shows that gale distance and nearest wind speed are the most significant features for predicting peak water level increases during storm surges. The results of this study could provide practical implications for predictive models concerning storm surges. These findings present essential tools for the mitigation of coastal disasters and the improvement of marine disaster warning systems.
+AU  - Sun, Kun
+AU  - Pan, Jiayi
+DO  - 10.1029/2023EA003243
+IS  - 12
+PY  - 2023
+TI  - Model of Storm Surge Maximum Water Level Increase in a Coastal Area Using Ensemble Machine Learning and Explicable Algorithm
+T2  - Earth and Space Science
+VL  - 10
+ER  -
+TY  - JOUR
+AB  - Storm surge is the anomalous rising of the sea surface induced by intense atmospheric disturbances. The storm surge caused by tropical cyclones often causes great socio-economic, human activity, and life and property hazards to coastal areas. In terms of research resource consumption and computational time, machine learning algorithms that depend on data-driven strong nonlinear mapping skills outperform standard numerical model forecasting. To obtain a lighter and faster storm surge shortcoming forecast, we use a deep learning-based single-station water level prediction model for a storm surge at several locations in this work. In contrast to earlier research, this study employs convolutional neural networks to extract two-dimensional wind field information and merge them with local water level features to produce a more time-efficient intelligent forecast.
+AU  - Xie, Wenhong
+AU  - Xu, Guangjun
+AU  - Zhang, Hongchun
+AU  - Dong, Changming
+DO  - 10.1016/j.ocemod.2023.102179
+PY  - 2023
+TI  - Developing a deep learning-based storm surge forecasting model
+T2  - Ocean Modelling
+VL  - 182
+ER  -
+TY  - JOUR
+AB  - Physics simulation results of natural processes usually do not fully capture the real world. This is caused for instance by limits in what physical processes are simulated and to what accuracy. In this work we propose and analyze the use of an LSTM-based deep learning network machine learning (ML) architecture for capturing and predicting the behavior of the systemic error for storm tide forecast models with respect to real-world water elevation observations from gauge stations during hurricane events. The overall goal of this work is to predict the systemic error of the physics model and use it to improve the accuracy of the simulation results post factum (i.e., to correct the model bias). We trained our proposed ML model on a dataset of 61 historical storms in the coastal regions of the south and southeastern U.S. and we tested its performance in bias correcting modeled water level data predictions from Hurricane Ian (2022). We show that our model can consistently improve the forecasting accuracy for Hurricane Ian – unknown to the ML model – at the majority of gauge station coordinates. Moreover, by examining the impact of using different subsets of the initial training dataset, containing a number of relatively similar or different hurricanes in terms of hurricane track, we found that we can obtain similar quality of bias correction by only using a subset of six hurricanes. This is an important result that implies the possibility to apply a pre-trained ML model to real-time hurricane forecasting results with the goal of bias correcting and improving the forecast accuracy. The presented work is an important first step in creating a bias correction system for real-time storm tide forecasting applicable to the full simulation area. It also presents a highly transferable and operationally applicable methodology for improving the accuracy in a wide range of physics simulation scenarios beyond storm tide forecasting.
+AU  - Giaremis, Stefanos
+AU  - Nader, Noujoud
+AU  - Dawson, Clint
+AU  - Kaiser, Carola
+AU  - Nikidis, Efstratios
+AU  - Kaiser, Hartmut
+DO  - 10.1016/j.coastaleng.2024.104532
+PY  - 2024
+TI  - Storm surge modeling in the AI era: Using LSTM-based machine learning for enhancing forecasting accuracy
+T2  - Coastal Engineering
+VL  - 191
+ER  -
+TY  - JOUR
+AB  - Rapid and precise forecasting of storm surge in coastal regions is crucial for ensuring safety of coastal communities’ life and property. Yet, learning a data-driven forecasting model from observation data such as gauges and post-event reconnaissance remains challenging, due to the observation data scarcity and the real-world complexity. Recently, deep learning has received increasing attention, but existing deep learning approaches solely focus on individual site scenarios, ignoring the value of information contained in neighboring sites’ observations. In this study, we propose to integrate graph neural networks (GNN) and gated recurrent unit (GRU) to capture the spatial and temporal storm surge dependencies across multiple observation stations. GNN provides the unique capability to model non-Euclidean complex spatial relationship across observation stations, while GRU enhances the data efficiency of temporal dependency modeling. To account for the effect of complex coastline topography, the Liang–Kleeman information flow theory is employed to establish a causal-inference based graph edge scheme connecting multiple observation stations. The Causal-inference based Spatio-Temporal Graph Neural Network (CSTGNN) were trained and evaluated on 13-year observation data from 4 observation stations along Florida coastline. Experiments affirm the competence of CSTGNN, which outperformed six commonly used competitive baselines across different metrics and observation stations, under lead times up to six hours. Furthermore, benefits of capturing the spatial dependency and leveraging causal inference are also comprehensively examined. To conclude, we believe that this novel spatio-temporal forecasting framework can result in enhanced coastal resilience by its improved storm surge forecasting capability.
+AU  - Jiang, Wenjun
+AU  - Zhang, Jize
+AU  - Li, Yuerong
+AU  - Zhang, Dongqin
+AU  - Hu, Gang
+AU  - Gao, Huanxiang
+AU  - Duan, Zhongdong
+DO  - 10.1016/j.coastaleng.2024.104512
+PY  - 2024
+TI  - Advancing storm surge forecasting from scarce observation data: A causal-inference based Spatio-Temporal Graph Neural Network approach
+T2  - Coastal Engineering
+VL  - 190
+ER  -
+TY  - JOUR
+AB  - Storm surges, a significant coastal hazard, cause substantial damage to both property and lives. Precise and efficient storm surge models are crucial for long-term risk assessment and guiding emergency management decisions. While high-fidelity dynamic models offer accurate predictions, their computational costs are substantial. Hence, recent efforts focus on developing data-driven storm surge surrogate models. This study focuses on the Pearl River Estuary in Guangdong Province. Initially, the dynamic ADvanced CIRCulation (ADCIRC) model was utilized to construct storm surge data for 16 historical typhoons, serving as training, validation, and testing data for data-driven models. Subsequently, Long Short-Term Memory (LSTM), Convolutional Neural Networks (CNN), and Informer deep learning (DL) models were employed for forecasting of storm surge over the next 1h, 3h, 6h, 12h, and 18h. Finally, Shapley Additive exPlanations (SHAP) values were used for interpretability analysis of the input factors across different models. Results indicated that the proposed DL storm surge prediction model can effectively replicate the dynamic model’s simulation results in short-term forecasts, significantly reducing computational costs. This model offers valuable scientific assistance for future coastal storm surge forecasts in the Greater Bay Area.
+AU  - Tian, Qingqing
+AU  - Luo, Wei
+AU  - Tian, Yu
+AU  - Gao, Hang
+AU  - Guo, Lei
+AU  - Jiang, Yunzhong
+DO  - 10.3389/fmars.2024.1390364
+PY  - 2024
+TI  - Prediction of storm surge in the Pearl River Estuary based on data-driven model
+T2  - Frontiers in Marine Science
+VL  - 11
+ER  -
+TY  - JOUR
+AB  - The combination of typhoon-induced storm surges and astronomical tides can result in extreme seawater levels and disastrous effects on coastal socioeconomic systems. The construction of an appropriate wind field has consistently been a challenge in storm tide forecasting and disaster warning. In this study, we optimized a nonlinear regression formula based on the C15 model to determine the maximum wind radius. The simulation based on the improvement showed good accuracy for storm tides during super typhoon Mangkhut (WP262018), Saola (WP092023), and severe typhoon Hato (WP152017). The correlation coefficients were in the 0.94–0.98 range, and the peak bias was less than 5cm. The trough errors were significantly reduced compared to other wind fields. Owing to the importance and lack of the maximum wind radius (Rmax), we attempted to predict Rmax using an LSTM (Long Short-Term Memory) neural network for forecasting storm tides during strong typhoons. Constrained LSTM showed good performance in hours 6–48, and effectively enhanced the forecasting capability of storm tides during strong typhoons. The workflows and methods used herein have broad applications in improving the forecasting accuracy of strong typhoon-induced storm tides.
+AU  - Wang, Yulin
+AU  - Liu, Jingui
+AU  - Xie, Lingling
+AU  - Zhang, Tianyu
+AU  - Wang, Lei
+DO  - 10.3389/fmars.2024.1391087
+PY  - 2024
+TI  - Forecasting storm tides during strong typhoons using artificial intelligence and a physical model
+T2  - Frontiers in Marine Science
+VL  - 11
+ER  -
+TY  - JOUR
+AB  - Machine-learning based methods are increasingly employed for the prediction of storm surges and development of early warning systems for coastal flooding. The evaluation of the quality of such methods needs to explicitly consider the uncertainty of the prediction, which may stem from the inaccuracy in the forecasted inputs to the model as well as from the uncertainty inherent to the model itself. Defining the range of validity of the prediction is essential for the correct application of such models. A methodology is proposed for building a robust model for forecasting storm surges accounting for the relevant sources of uncertainty. The model uses as inputs the mean sea level pressure and wind velocity components at 10 m above sea level. A set of Artificial Neural Networks are used in conjunction with an adaptive Bayesian model selection process to make robust storm surge forecast predictions with associated prediction intervals. The input uncertainty, characterised by comparing hindcast data and one day forecasted data, is propagated through the model via a Monte Carlo based approach. The application of the proposed methodology is illustrated by considering 24 h target forecast predictions of storm surges for Millport, in the Firth of Clyde, Scotland, UK. It is shown that the proposed approach significantly improves the predictive performance of existing machine learning based models and provides a meaningful prediction interval that characterises feature, model and forecast uncertainty. The forecast system has negligible computational time requirements and showed very good agreement with observations acccording different metrics and achieving e.g., a correlation coefficient of 0.942 for 24 h forecasted surge from 2021 to 2023. The mean absolute error was 0.06 m for all observations and only 0.10 m for observations above 0.75 m showing its accuracy for predicting extreme events.
+AU  - Macdonald, E.
+AU  - Tubaldi, E.
+AU  - Patelli, E.
+DO  - 10.1007/s00477-025-02993-3
+IS  - 7
+PY  - 2025
+TI  - Robust storm surge forecasts for early warning system: a machine learning approach using Monte Carlo Bayesian model selection algorithm
+T2  - Stochastic Environmental Research and Risk Assessment
+VL  - 39
+ER  -
+TY  - JOUR
+AB  - Storm surges induced by low pressure and high winds from tropical or extratropical cyclones are the main driver of major coastal flooding events. While tide gauges provide the most accurate sea level observations, their records are often short, spatially uneven, and contain gaps, posing challenges for a detailed analysis of surge characteristics continuously along the coastline. To perform extreme value analysis for hazard and risk assessment requires long time series of storm surges, which do often not exist. In this study, we use a regional long short-term memory (LSTM) model to predict storm surges at multiple tide gauges simultaneously, while also accounting for localized features. Storm surge observations from 31 tide gauges across Florida are used as a predictand; atmospheric and oceanic data are used as dynamic predictors; and shelf width, nearshore slope, shelter factor, and tidal range are used as static predictors. Results demonstrate that incorporating local static attributes improves model performance. Pearson correlation increases by 20% and RMSE drops by 22%, on average, in the cross-validation. The pretrained model captures localized surge patterns at gauged and ungauged locations making it suitable to simulate storm surge while accounting for local bathymetric features. Comparison with a state-of-the-art hydrodynamic numerical model hindcast shows that the regional LSTM approach performs better in most locations. The proposed modeling framework is efficient and can derive hindcasts and future projections of storm surges facilitating robust analysis of trends, decadal variations, and the calculation of return levels with reduced uncertainty.
+AU  - Nagaraj, Meghana
+AU  - Rodriguez, Alejandra
+AU  - Wahl, Thomas
+DO  - 10.1029/2025JH000650
+IS  - 3
+PY  - 2025
+TI  - Regional Modeling of Storm Surges Using Localized Features and Transfer Learning
+T2  - Journal of Geophysical Research: Machine Learning and Computation
+VL  - 2
+ER  -
+TY  - JOUR
+AB  - Accurate and timely storm surge prediction is critical information in coastal zone management and risk reduction strategies. The Bohai Sea, a semi-enclosed bay in the Northwest Pacific that used to be less prone to typhoon disasters, has been witnessing a paradigm shift in typhoon activities in the recent past. Since there have been limited typhoon-induced storm surges in the Bohai Sea, an innovative prediction system is warranted to address frequent and intense typhoon-induced impacts. Four Machine Learning (ML) models (Long Short-Term Memory (LSTM), Convolutional Neural Networks (CNN), CNN-LSTM, and ConvLSTM) were built to predict storm surges and significantly improve prediction when combined with a three-dimensional Finite Volume Community Ocean Model (FVCOM), that is, FVCOM-ML. In this study, the FVCOM-ML model was driven by a hybrid wind field that superimposed the Holland wind and the reanalysis wind field. The ML models were trained via Advanced Circulation Model simulations to compensate for the limited in-situ observations. The prediction performances were analyzed for both spatial (e.g., single and multiple sites) and temporal (e.g., single and multiple steps) scale variability. ML is trained to overcome the residual error of the FVCOM, effectively reducing the inherent uncertainty of traditional methods. FVCOM-ML offers a significant advantage over standalone FVCOM or ML while better incorporating realistic physical constraints and improving the accuracy of storm surge forecasts.
+AU  - Su, Changyu
+AU  - Sahoo, Bishnupriya
+AU  - Mao, Miaohua
+AU  - Xia, Meng
+DO  - 10.1029/2024JH000507
+IS  - 2
+PY  - 2025
+TI  - Machine Learning Techniques for Predicting Typhoon-Induced Storm Surge Using a Hybrid Wind Field
+T2  - Journal of Geophysical Research: Machine Learning and Computation
+VL  - 2
+ER  -
+TY  - JOUR
+AB  - Accurate estimation of extreme sea levels caused by storm surges is critical for coastal engineering, particularly during typhoon seasons. Data-driven approaches have emerged as efficient tools for storm surge prediction. This study presents the development of deep learning neural network models to predict storm surge levels in the estuarine and coastal waters of the Pearl River Estuary, China, using typhoon characteristics and previous surge data. Unlike traditional single-point neural network models that focus on individual tide stations, this study introduces multipoint models and incorporates a convolutional layer to extract spatial features from tide levels at neighboring stations. Comparative results reveal that multipoint models significantly increase prediction accuracy by integrating spatiotemporal information from surrounding stations. This advantage is particularly evident when forecasting lead times exceed six hours, where multipoint models demonstrate superior accuracy and stability compared with single-point models. Furthermore, this study evaluates the impact of limited training sample sizes on prediction accuracy, offering valuable insights into the data requirements for robust model training. The findings highlight the potential of using multipoint neural network models as effective tools for storm surge prediction, offering increased accuracy and contributing to enhanced coastal risk management and decision-making in the face of extreme weather events.
+AU  - Zhang, Zhuo
+AU  - Zhang, Lu
+AU  - Yue, Songshan
+AU  - Zhang, Dong
+AU  - Yu, Zhaoyuan
+AU  - Hu, Di
+AU  - Chen, Peng
+DO  - 10.1080/17538947.2025.2536074
+IS  - 1
+PY  - 2025
+TI  - Short-term prediction of storm surges in estuarine and coastal waters via a multipoint deep learning neural network with limited training samples
+T2  - International Journal of Digital Earth
+VL  - 18
+ER  -
+TY  - JOUR
+AB  - Storm surges have a great impact on ocean engineering and design complex physical changes. Numerical simulation methods are often used for prediction, but they face problems such as long calculation time. Machine learning avoids these, but it also faces some problems, such as delays in predicting results, short prediction durations, and large data demands. Therefore, we built a PINN model to integrate storm surge physics with neural networks to reduce the need for data and improve the accuracy of storm surge forecasting. Using ADCIRC as a smaller dataset, the cold wave storm surge in Bohai Bay during 2018–2022 was simulated. In the storm surge process prediction experiment, the overall error of PINN is small, RMSE is 0.163. In a 48-h prediction experiments, RMSE of PINN's result is 0.241, which is more accurate than DNN. It is revealed that PINN has a strong physical mechanism learning ability. PINN can predict the storm surge of strong cold wave more accurately, the calculation speed is nearly one thousand times faster than ADCIRC, and it has broad application prospect in disaster prevention and reduction.
+AU  - Zhu, Zhicheng
+AU  - Wang, Zhifeng
+AU  - Dong, Changming
+AU  - Yu, Miao
+AU  - Xie, Huarong
+AU  - Cao, Xiandong
+AU  - Han, Lei
+AU  - Qi, Jinsheng
+DO  - 10.1016/j.coastaleng.2024.104686
+PY  - 2025
+TI  - Physics informed neural network modelling for storm surge forecasting — A case study in the Bohai Sea, China
+T2  - Coastal Engineering
+VL  - 197
+ER  -
+TY  - JOUR
+AB  - Coastal regions are increasingly exposed to sea-level rise and intensifying storm surges, underscoring the urgent need for accurate long-term predictions of extreme water levels to support robust adaptation planning. Physics-based hydrodynamic storm surge models remain the gold standard for such projections, but are computationally demanding, limiting their feasibility for producing the large scenario ensembles needed under deep uncertainty. Artificial intelligence surrogate models have emerged as a promising alternative. Yet, current approaches often underrepresent rare extremes and lack validation under future climate conditions, constraining their application for long-term planning. Here, we develop a deep learning surrogate model trained on hydrodynamic simulations from the Global Tide and Surge Model (GTSM), with both historical reanalysis and high-resolution climate projections (CMIP6 HighResMIP). Using New York City, a highly vulnerable urban coastline with extensive surge records, as a testbed, we demonstrate the model's ability to represent extreme storm surges under both historical and mid-21st-century scenarios. To enhance performance on extremes, we propose a novel asymmetric loss function, combining quantile and expectile losses, which substantially improves predictions of rare storm surge events, while maintaining high overall performance. Fine-tuning with climate model outputs further aligns the surrogate's estimates with those of the hydrodynamic model across spatial and temporal scales. Under future climate forcing, projections obtained with the surrogate model closely reproduce the response of GTSM, capturing projected trends in extreme events. This open-data-based framework provides a computationally efficient and globally transferable approach for storm surge projection, enabling the large-scale scenario analyses required for climate-resilient coastal planning.
+AU  - Longo, Emiliano
+AU  - Ficchì, Andrea
+AU  - Verlaan, Martin
+AU  - Muis, Sanne
+AU  - Castelletti, Andrea
+DO  - 10.1029/2025EF007072
+IS  - 3
+PY  - 2026
+TI  - A Deep Learning Framework for Extreme Storm Surge Modeling Under Future Climate Scenarios
+T2  - Earth's Future
+VL  - 14
+ER  -
